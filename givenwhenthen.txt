@@ -10,3 +10,16 @@ Feature: Calculate pizza
     And  we should order one 2 l and one 1 l.
     And it should cost 225 kronor. 
 
+  Scenrio: We are hungry.
+    Given we are 2 people
+    And are hungry and thirsty
+    And we want to know how many pizzas to buy
+
+    When we are going to order.
+
+    Then we should order 1 pizza
+    And we should order one 1l
+    And it should cost 75 kronor. 
+
+    
+
