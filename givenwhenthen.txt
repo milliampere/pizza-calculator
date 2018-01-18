@@ -1,3 +1,12 @@
 Feature: Calculate pizza
+  Scenario: We are hungry. 
+    Given we are five people
+    And are hungry and thirsty
+    And we want to know know how many pizzas to buy.
 
-Scenario: 
+    When we are going to order.
+
+    Then we should order 3 pizzas.
+    And  we should order one 2 l and one 1 l.
+    And it should cost 225 kronor. 
+
