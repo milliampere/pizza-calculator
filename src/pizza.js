@@ -24,7 +24,7 @@ module.exports = {
     const liter = people * 0.5;
     const drinks = Math.floor(liter / 2);
     return drinks;
-  }
+  },
 
 	calculatePizza(people){
 
