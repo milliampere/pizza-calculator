@@ -8,7 +8,7 @@
     "jest": "22.0.4"
   },
   "scripts": {
-    "test" : "jest",
-    "test:watch" : "jest --watchAll"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   }
 }
