@@ -21,5 +21,3 @@ Feature: Calculate pizza
     And we should order one 1l
     And it should cost 75 kronor. 
 
-    
-
